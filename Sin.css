@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,rgb(137, 139, 219),white );
+}
+.inner-box{
+    width:400px;
+    margin: 0 auto;
+    position:relative;
+    top:40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: ghostwhite;
+    backdrop-filter: 8px;
+    border-radius: 8px;
+    z-index: 2;
+}
+.signin-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+.signin-header p{
+    font-size: 0.8rem;
+    color:#555;
+    margin-top: 10px;
+    
+}
+.signin-body{
+    margin:20px 0;
+}
+.signin-body p{
+    margin: 10px 0;
+}
+.signin-body p label{
+    display:block;
+}
+.signin-body p input{
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    border: 2px solid #cccc;
+}
+.signin-body p input[type="signin"]{
+    background-color:rgb(119, 107, 221);
+    border:none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.signin-body p input[type="signin"]:hover{
+    background-color:rgb(155, 183, 243);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#e490bcaa,#ffffff);
+    position: absolute;
+}
